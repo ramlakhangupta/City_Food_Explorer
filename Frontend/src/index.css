@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html, body {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.opacity_layer_bg {
+    background: linear-gradient(180deg, rgba(195, 188, 188, 0) 75%, #ffffff 150%);
+}
